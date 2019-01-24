@@ -8,8 +8,8 @@ public class Performer {
         System.out.println("constructor");
     }
 
-    public Performer(Audition audi){
-        this.audition = audi;
+    public Performer(Audition audition){
+        this.audition = audition;
         if(this.audition.getPerformers().size() >= 1000) {
             System.out.print("Full. Open another session");
             return;
